@@ -4,20 +4,28 @@
   <metadata>
     <id>spicetify-cli</id>
     <version>0.9.8</version>
-    <title>spicetify-cli (Install)</title>
+    <title>spicetify-cli</title>
     <owners>derkalaender</owners>
     <authors>khanhas</authors>
-    <summary>__REPLACE__</summary>
-    <description>__REPLACE__</description>
+    <summary>Command-line tool to customize Spotify client</summary>
+    <description><![CDATA[Command-line tool to customize Spotify client
+## Features
+- Change all colors in the whole UI
+- Inject CSS for advanced customization
+- Inject Extensions (Javascript) to extend functionality, manipulate UI and control player
+- Inject Custom apps
+- Enable additional, hidden features
+- Remove bloated components to improve performance
+]]></description>
     <projectUrl>https://github.com/khanhas/spicetify-cli</projectUrl>
     <projectSourceUrl>https://github.com/khanhas/spicetify-cli</projectSourceUrl>
     <docsUrl>https://github.com/khanhas/spicetify-cli/wiki</docsUrl>
     <bugTrackerUrl>https://github.com/khanhas/spicetify-cli/issues</bugTrackerUrl>
-    <!-- <packageSourceUrl>__REPLACE__</packageSourceUrl> -->
+    <packageSourceUrl>https://github.com/derkalaender/chocolatey-specify-cli</packageSourceUrl>
     <tags>spicetify-cli spicetify spotify</tags>
     <licenseUrl>https://github.com/khanhas/spicetify-cli/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <!-- <iconUrl>__REPLACE__</iconUrl> -->
+    <iconUrl>https://cdn.jsdelivr.net/gh/derkalaender/chocolatey-specify-cli@5a762479d6138d4a44f59aee4b3a4d2cfa1edc02/icon.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
