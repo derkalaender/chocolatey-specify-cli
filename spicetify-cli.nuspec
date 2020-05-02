@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>spicetify-cli</id>
+    <version>0.9.8</version>
+    <title>spicetify-cli (Install)</title>
+    <owners>derkalaender</owners>
+    <authors>khanhas</authors>
+    <summary>__REPLACE__</summary>
+    <description>__REPLACE__</description>
+    <projectUrl>https://github.com/khanhas/spicetify-cli</projectUrl>
+    <projectSourceUrl>https://github.com/khanhas/spicetify-cli</projectSourceUrl>
+    <docsUrl>https://github.com/khanhas/spicetify-cli/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/khanhas/spicetify-cli/issues</bugTrackerUrl>
+    <!-- <packageSourceUrl>__REPLACE__</packageSourceUrl> -->
+    <tags>spicetify-cli spicetify spotify</tags>
+    <licenseUrl>https://github.com/khanhas/spicetify-cli/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <!-- <iconUrl>__REPLACE__</iconUrl> -->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
