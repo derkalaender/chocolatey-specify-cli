@@ -1,14 +1,15 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>spicetify-cli</id>
-    <version>0.9.8</version>
+    <version>1.0.2</version>
     <title>spicetify-cli</title>
     <owners>derkalaender</owners>
     <authors>khanhas</authors>
     <summary>Command-line tool to customize Spotify client</summary>
     <description><![CDATA[Command-line tool to customize Spotify client
+
 ## Features
 - Change all colors in the whole UI
 - Inject CSS for advanced customization
@@ -28,6 +29,7 @@
     <iconUrl>https://cdn.jsdelivr.net/gh/derkalaender/chocolatey-specify-cli@5a762479d6138d4a44f59aee4b3a4d2cfa1edc02/icon.png</iconUrl>
   </metadata>
   <files>
+	<file src="legal\**" target="legal" />
     <file src="tools\**" target="tools" />
   </files>
 </package>
